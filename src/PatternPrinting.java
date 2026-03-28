@@ -8,7 +8,10 @@ public class PatternPrinting {
         int n = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
-            System.out.print("* ");
+            System.out.print("*");
+            if (i < n - 1) {
+                System.out.print(" ");
+            }
         }
         System.out.println();
 
